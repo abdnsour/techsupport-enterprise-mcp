@@ -1,0 +1,28 @@
+# Environment variables
+.env
+*.env
+.env.*
+!.env.example
+
+# Oracle Wallet & Credentials
+Wallet_*/
+*.sso
+*.p12
+*.pem
+*.key
+*.crt
+config
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
